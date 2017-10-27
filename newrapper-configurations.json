@@ -1,0 +1,240 @@
+{
+    "url": "http://138.132.66.80:8080/netwrapper-etl/api/v1/topology/config",
+    "timestamp": "2017-10-26 14:54:07",
+    "configurations": [
+        {
+            "configurationName": "demo",
+            "configurationUUID": "6924c1b0-345f-45a4-945f-8ab7f2b7b1c9",
+            "topology": {
+                "topologyUUID": "6e40f641-6578-453f-8f25-25d7a4921abc",
+                "links": [
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 1",
+                        "linkUUID": "4af413cf-5b31-4c9e-9fba-3b1f18cc9793",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "5abcac42-5377-46cf-8600-27a51808a34a",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 1 Headquarter Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{B7407B31-4C14-9F4A-D716-521C1E395143}",
+                                "serviceLinkprobesLINKUUID": "97374751814582615"
+                            },
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "d918e7a3-3e69-455a-8f87-3fdeebc94467",
+                                "serviceLinkname": "Europa <-> Milano",
+                                "serviceLinkinternalUUID": "Europa-Milano",
+                                "serviceLinkprobesLINKUUID": "97374596507894127"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "a5e7b9cf-0acd-4840-b649-8ab4d0f6c9af",
+                                "networkLinkname": "cloud node <-> P29i6u-ASR1Kv-LAN-MI.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-dd49e9f4-8c78-481c-873a-89ff3a9902df",
+                                "networkLinkprobesLINKUUID": "97374751814582338"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 2",
+                        "linkUUID": "e150e14a-c3c8-44af-a10b-cbcd43d5422f",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "48cf6b2c-6147-4f10-87ea-aeaa0ef3b0f1",
+                                "serviceLinkname": "Europa <-> Amsterdam",
+                                "serviceLinkinternalUUID": "Europa-Amsterdam",
+                                "serviceLinkprobesLINKUUID": "97374596507894133"
+                            },
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "29591efa-c2ad-41aa-b921-10a05d8ad666",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 2 Branch Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{532AA7F5-FEBB-8EDB-D3EC-FFD968F93319}",
+                                "serviceLinkprobesLINKUUID": "97374751814582612"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "094ba082-9a44-4661-9f72-57ee48bf689f",
+                                "networkLinkname": "cloud node <-> P29i6u-ISR4331-AM.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-baba36b5-5e81-4ef9-9e3a-8c35d9eb91e8",
+                                "networkLinkprobesLINKUUID": "97374751814582337"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 3",
+                        "linkUUID": "4bad7859-1ce0-42a4-95eb-acad7bcf959d",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "49ae7d20-51e6-4d44-a4fe-951f65c978ff",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 3 Branch Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{E8638BC5-B0EC-6C42-977D-FF78C6988537}",
+                                "serviceLinkprobesLINKUUID": "97374751814582613"
+                            },
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "42908c19-ac5d-4e30-a4a6-bd04b1123f01",
+                                "serviceLinkname": "Europa <-> Palermo",
+                                "serviceLinkinternalUUID": "Europa-Palermo",
+                                "serviceLinkprobesLINKUUID": "97374596507894131"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "b33f11ed-e62f-46c5-8b4f-769c7ae62c18",
+                                "networkLinkname": "cloud node <-> P29i6u-ISR2900-PA.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-15c7c1a4-81ff-45a3-b36e-e11da8997d04",
+                                "networkLinkprobesLINKUUID": "97374751814582336"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 4",
+                        "linkUUID": "154e5ed7-9c3a-4387-b780-a77ce77eb902",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "ceca6961-6451-456e-a3f9-5c753e0fd2b7",
+                                "serviceLinkname": "Europa <-> Roma",
+                                "serviceLinkinternalUUID": "Europa-Roma",
+                                "serviceLinkprobesLINKUUID": "97374596507894129"
+                            },
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "abd402a9-bdb7-46ac-a9e6-60f0638d0c78",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 4 Branch Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{DA11A3BB-1CC6-3A32-E587-BBDF4EA67C44}",
+                                "serviceLinkprobesLINKUUID": "97374751814582614"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "1c02f522-d40e-453b-a688-83101d56d4ff",
+                                "networkLinkname": "cloud node <-> P29i6u-ISR4331-RO.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-117a5eb1-fe7a-4bb7-a5bc-c060f045cd11",
+                                "networkLinkprobesLINKUUID": "97374751814582335"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "configurationName": "demo_NW",
+            "configurationUUID": "43f0e342-7754-4199-aedc-cdce196f3641",
+            "topology": {
+                "topologyUUID": "3b4cfe46-89de-4a44-af7a-0c7889948f4a",
+                "links": [
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 1",
+                        "linkUUID": "a486573a-d1bb-42a2-bfde-999aeed01423",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "c8bc3008-b7dc-447b-96a0-0f247013b0b7",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 1 Headquarter Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{B7407B31-4C14-9F4A-D716-521C1E395143}",
+                                "serviceLinkprobesLINKUUID": "97374751814582627"
+                            },
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "d8449588-f71a-4be4-8b19-86d350f9543d",
+                                "serviceLinkname": "Europa <-> Milano",
+                                "serviceLinkinternalUUID": "Europa-Milano",
+                                "serviceLinkprobesLINKUUID": "97374596507894127"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "244b9a23-36f8-4a0f-9aa5-4037fcedcf06",
+                                "networkLinkname": "cloud node <-> P29i6u-ASR1Kv-LAN-MI.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-dd49e9f4-8c78-481c-873a-89ff3a9902df",
+                                "networkLinkprobesLINKUUID": "97374751814582338"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 2",
+                        "linkUUID": "e1c5db95-db5b-4475-8776-dd18fcaaa6fc",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "c8c38ef6-613f-4d9c-9681-57c7b3a287f7",
+                                "serviceLinkname": "Europa <-> Amsterdam",
+                                "serviceLinkinternalUUID": "Europa-Amsterdam",
+                                "serviceLinkprobesLINKUUID": "97374596507894133"
+                            },
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "c0b84055-8276-4969-b805-c55dd27ec721",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 2 Branch Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{532AA7F5-FEBB-8EDB-D3EC-FFD968F93319}",
+                                "serviceLinkprobesLINKUUID": "97374751814582624"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "770f454e-b271-4a47-9468-396386eee55f",
+                                "networkLinkname": "cloud node <-> P29i6u-ISR4331-AM.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-baba36b5-5e81-4ef9-9e3a-8c35d9eb91e8",
+                                "networkLinkprobesLINKUUID": "97374751814582337"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 3",
+                        "linkUUID": "2cf3e804-d389-472e-a0e4-51c1d5c8ffd4",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "bebd31b4-70fe-4eb0-96b5-a89a431eb46a",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 3 Branch Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{E8638BC5-B0EC-6C42-977D-FF78C6988537}",
+                                "serviceLinkprobesLINKUUID": "97374751814582625"
+                            },
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "65d17db4-03ed-4224-bb8d-1f142f55f5cb",
+                                "serviceLinkname": "Europa <-> Palermo",
+                                "serviceLinkinternalUUID": "Europa-Palermo",
+                                "serviceLinkprobesLINKUUID": "97374596507894131"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "a7896e73-51cc-4677-ba74-6b721e686a50",
+                                "networkLinkname": "cloud node <-> P29i6u-ISR2900-PA.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-15c7c1a4-81ff-45a3-b36e-e11da8997d04",
+                                "networkLinkprobesLINKUUID": "97374751814582336"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "NW IPWAN 1 <-> NW Site 4",
+                        "linkUUID": "73f30790-f576-4b40-96fd-29f773019b55",
+                        "externalLinks": [
+                            {
+                                "serviceLinkserviceType": "SKYPE4B",
+                                "serviceLinkUUID": "d958a01c-173a-4cbd-b30d-459baf8eda2c",
+                                "serviceLinkname": "Europa <-> Roma",
+                                "serviceLinkinternalUUID": "Europa-Roma",
+                                "serviceLinkprobesLINKUUID": "97374596507894129"
+                            },
+                            {
+                                "serviceLinkserviceType": "CUCM",
+                                "serviceLinkUUID": "8f882f82-6901-4bf8-87ef-5d9a18594da5",
+                                "serviceLinkname": "IP-WAN Transit Location <-> Site 4 Branch Location",
+                                "serviceLinkinternalUUID": "{CB85A370-C680-FFF1-ACAC-93B283137270}{DA11A3BB-1CC6-3A32-E587-BBDF4EA67C44}",
+                                "serviceLinkprobesLINKUUID": "97374751814582626"
+                            },
+                            {
+                                "networkLinkType": "APICEM",
+                                "networkLinkUUID": "da44a1bd-4657-4f27-b4c2-2e156d897ded",
+                                "networkLinkname": "cloud node <-> P29i6u-ISR4331-RO.settimo.italtel.it",
+                                "networkLinkinternalUUID": "074463ad-69ff-4275-bc5b-ac849e4dba06-117a5eb1-fe7a-4bb7-a5bc-c060f045cd11",
+                                "networkLinkprobesLINKUUID": "97374751814582335"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
