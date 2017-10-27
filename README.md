@@ -4,6 +4,8 @@ recupero uuid per modifica file di properties
 
 USAGE :
 node .\index.js   
-or node .\index.js  138.132.66.80:8080
-or node .\index.js  138.132.66.80:8080 > newrapper-configurations.json
+
+(xxx.xxx.xxx.xxx IP NW)
+or node .\index.js  xxx.xxx.xxx.xxx:8080
+or node .\index.js  xxx.xxx.xxx.xxx:8080 > newrapper-configurations.json
 
